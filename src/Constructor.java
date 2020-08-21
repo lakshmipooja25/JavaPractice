@@ -1,12 +1,12 @@
 
-public class Constructor {
+/*public class Constructor {
 	//  DEFAULT CONSTRUCTOR
-	/*String name;
+	String name;
 	int age;
-	static int a=100;
+	int a;
 	
 	public Constructor() {
-		this.a = a;
+		//this.a = a;
 		System.out.println("default constructor is called");
 		System.out.println(name);
 	}
@@ -19,9 +19,27 @@ public class Constructor {
 	{
 		Constructor c = new Constructor();
 		c.display();
-		System.out.println(a);
+		//System.out.println(a);
+		
 	}*/
-	
+
+	//*****************************************************************
+	class Constructor{  
+		int id;  
+		String name;  
+		//method to display the value of id and name  
+		void display(){System.out.println(id+" "+name);}  
+		  
+		public static void main(String args[]){  
+		//creating objects  
+			Constructor s1=new Constructor();  
+			Constructor s2=new Constructor();  
+		//displaying values of the object  
+		s1.display();  
+		s2.display();  
+		}  
+		}  
+	//*******************************************************************
 	// PARAMETERIZED CONSTRUCTOR
 	/*String name1;
 	int age1;
@@ -131,4 +149,4 @@ public class Constructor {
 		c1.subject=c.subject;
 		c1.display();
 	}*/
-}
+
